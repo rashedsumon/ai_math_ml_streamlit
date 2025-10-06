@@ -3,6 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
+import sys, os
+sys.path.append(os.path.dirname(__file__))
 from utils.data_loader import load_salary_data
 from modules.linear_algebra import vector_operations, matrix_operations
 from modules.calculus import derivative_example, gradient_descent_example
